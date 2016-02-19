@@ -1,0 +1,8 @@
+#!/bin/bash
+#Authors: Jackson Martin, Cole Vahey
+finder(){
+  cd /home/user2/.mult/
+  cat .talk.txt
+}
+
+finder

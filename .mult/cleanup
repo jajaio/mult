@@ -1,0 +1,5 @@
+#!/bin/bash
+#Authors: Jackson Martin, Cole Vahey
+cd /home/user2/.mult/
+rm .talk.txt
+touch .talk.txt

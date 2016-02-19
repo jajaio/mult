@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#Authors: Cole Vahey, Jackson Martin
+
+cd ~
+echo 'rmnotify(){
+  cd /home/user2/.mult/
+  rm .messagealert
+  touch .messagealert
+  cd ~
+}
+rmnotify
+mult(){
+  cd ~/.mult/
+  python3 main.py
+}' >> .bashrc

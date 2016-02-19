@@ -1,0 +1,3 @@
+#!/bin/bash
+#Author: Cole Vahey
+echo -e "\033[0;31mNEW MESSAGE" >> .messagealert
