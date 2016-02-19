@@ -1,3 +1,5 @@
+# Mult.
+
 # Requirements
 Mult runs on Mac(OSX) and Linux. Make sure you have Python3 installed
 on your system. A text editor like Vim or Nano will be needed for the install.
