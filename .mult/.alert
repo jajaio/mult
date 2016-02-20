@@ -1,4 +1,5 @@
 #!/bin/bash
+#Author: Cole Vahey
 alert(){
   cd /home/user2/.mult/
   cat .messagealert
