@@ -1,0 +1,6 @@
+#!/bin/bash
+alert(){
+  cd /home/user2/.mult/
+  cat .messagealert
+}
+alert
