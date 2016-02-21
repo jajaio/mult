@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#Author: Cole Vahey
+
+rmold(){
+  cd ~
+  rm -rf mult
+  cd .mult
+}
+rmold
