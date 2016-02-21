@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-#Author: Jackson Martin
+
+#Author: Jackson Martin, Cole Vahey
+
 import user
 import save
 import os
@@ -13,6 +15,8 @@ def run():
     os.system('cp .alert ~')
     print('Installing mult funcs. in .bashrc....')
     os.system('bash bh')
+    print('Deleting the old mult directory')
+    os.system('bash rmold')
     print('Done!')
 if __name__ == '__main__':
     run()
