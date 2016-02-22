@@ -15,8 +15,6 @@ def run():
     os.system('cp .alert ~')
     print('Installing mult funcs. in .bashrc....')
     os.system('bash bh')
-    print('Deleting the old mult directory')
-    os.system('bash rmold')
     print('Done!')
 if __name__ == '__main__':
     run()
