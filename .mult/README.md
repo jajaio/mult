@@ -2,13 +2,13 @@
 Mult is an Instant Message program written in python and bash. It
 takes a bit of setup, but works fine.                                          
 
-# Requirements
+# Requirements.
 Mult runs on Mac(OSX) and Linux. Make sure you have Python3 installed
 on your system. A text editor like Vim or Nano will be needed for the install.
 You also need to be on a system with multiple users for this to have any
 use.
 
-# Installing Mult
+# Installing Mult.
 Mult is an Instant Message program for 2 users. For the sake of this
 installation, you will be `user1` and the person you chat with will 
 be called `user2`. First, open the /etc/group file as an admin. `vi
