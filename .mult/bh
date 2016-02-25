@@ -4,6 +4,7 @@
 
 cd ~
 echo 'rmnotify(){
+  bash .alert
   cd /home/user2/.mult/
   rm .messagealert
   touch .messagealert
