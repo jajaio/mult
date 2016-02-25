@@ -24,7 +24,7 @@ def run():
     elif option == '2':
         prompt = input(c.yellow+"What would you like to say?"+c.reset+" >>> "+c.violet)
         os.system('date >> .talk.txt')
-        os.system('echo '+user.User.name+': '+prompt+' >> .talk.txt')
+        os.system('echo '+user.User.name.title()+': '+prompt+' >> .talk.txt')
         os.system('bash notify')
         input('Message sent! [Press enter]')
         print(c.clear)
