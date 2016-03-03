@@ -21,4 +21,6 @@ will be communicating with. Then, run the `setup.py` file. `python3 setup.py`
 Once this is done, go back to your home directory. `cd ~` and edit the `.alert` 
 file so you can change the final `user2` part. After this, source your
 .bashrc file, `source .bashrc`. Once these steps are done for both users, you're set! 
-Type 'mult' from the command line to access the chat.
+Type 'mult' from the command line to access the chat. If there is ever a desire
+to check the history of messages from one user to another simply cat
+the .history.txt file in your .mult direcory.
