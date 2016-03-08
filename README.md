@@ -1,3 +1,7 @@
+# Quick Notice.
+Mult is still in development. We advise that you download at another time
+for a stable release.
+
 # Mult.    
 Mult is an Instant Message program written in python and bash. It
 takes a bit of setup, but works fine.                                          
