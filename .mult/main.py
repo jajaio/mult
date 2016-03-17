@@ -5,6 +5,7 @@ import colors as c
 import time as t
 import user
 import load
+import shutil
 
 def run():
     option=input(c.yellow+"Would you like to scan for new messages? or send a new message? (1), (2)"+c.reset+" >>>"+c.violet)
@@ -25,6 +26,7 @@ def run():
         prompt = input(c.yellow+"What would you like to say?"+c.reset+" >>> "+c.violet)
         os.system('date >> .talk.txt')
         os.system('echo '+user.User.name.title()+': '+prompt+' >> .talk.txt')
+        #shutil.chown(".talk.txt", group="mult")
         os.system('bash notify')
         input('Message sent! [Press enter]')
         print(c.clear)

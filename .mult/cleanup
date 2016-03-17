@@ -3,3 +3,4 @@
 cd /home/user2/.mult/
 rm .talk.txt
 touch .talk.txt
+chgrp mult .talk.txt

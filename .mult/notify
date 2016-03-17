@@ -1,3 +1,5 @@
 #!/bin/bash
 #Author: Cole Vahey
+rm -f .messagealert
 echo -e "\033[0;31mNEW MESSAGE" >> .messagealert
+chgrp mult .messagealert
