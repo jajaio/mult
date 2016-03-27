@@ -1,3 +1,4 @@
 #!/bin/bash
-#Author: Cole Vahey
+#Author: Cole Vahey, Jackson Martin
 echo -e "\033[0;31mNEW MESSAGE" >> .messagealert
+chgrp mult .messagealert

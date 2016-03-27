@@ -1,5 +1,3 @@
-#Author: Rob Muhlstein
-
 """Solarized color terminal.
 
 This module contains some mappings for the ANSI terminal escapes support
