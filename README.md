@@ -1,7 +1,3 @@
-# Quick Notice.
-Mult is still in development. We advise that you download at another time
-for a stable release.
-
 # Mult.    
 Mult is an Instant Message program written in python and bash. It
 takes a bit of setup, but works fine.                                          
@@ -26,3 +22,7 @@ Once this is done, go back to your home directory. `cd ~` and edit the `.alert`
 file so you can change the final `user2` part. After this, source your
 .bashrc file, `source .bashrc`. Once these steps are done for both users, you're set! 
 Type 'mult' from the command line to access the chat.
+
+# Goals for the future
+We plan to have self generating files, so it makes the setup a good
+bit easier.
