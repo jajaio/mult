@@ -27,3 +27,9 @@ Once these steps are done for both users, you're set!
 Type 'mult' from the command line to access the chat. If there is ever a desire
 to check the history of messages from one user to another simply cat
 the .history.txt file in your .mult direcory.
+
+# Plans for the future.                                                  
+This summer, we plan to make the install process a lot easier.
+It's very tedious at the moment, and we plan to fix that.                     
+-Jackson Martin 2016                                                     
+                                                   
