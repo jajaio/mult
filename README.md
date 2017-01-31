@@ -29,5 +29,5 @@ to check the history of messages from one user to another simply cat
 the .history.txt file in your .mult direcory.
 
 # Plans for the future.                                                  
-This Project is closed for now. Not likely any more updates will follow.
+This Project is closed for now. It's not likely that any more updates will follow.
 -Jackson Martin, Jan. 31, 2017
